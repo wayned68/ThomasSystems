@@ -4,7 +4,23 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
  header {
-  padding: 200px 0 100px;
+  padding: 250px 0 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
 }
 
 section {
@@ -19,4 +35,11 @@ section {
   object-fit: contain;
   display: block;
   margin: 0 auto 0;
+}
+
+footer {
+  flex-shrink: 0;
+  width: 100%;
+  color: #fff;
+  background-color: #011936
 }
